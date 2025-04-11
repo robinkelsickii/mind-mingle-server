@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const User = require('./User'); // Import the User model
 
 const profileSchema = new mongoose.Schema({
   userId: {
